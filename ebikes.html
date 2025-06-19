@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Bike Kits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #fff;
+    }
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+    }
+    .header a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .hero {
+      position: relative;
+      text-align: center;
+      color: #fff;
+      padding: 50px 20px;
+      background-image: url('baikas.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .hero h1, .hero p {
+      position: relative;
+      z-index: 2;
+    }
+    .hero h1 {
+      font-size: 4em;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .hero p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px 0;
+      background-color: #fff;
+    }
+    .gallery-item {
+      margin: 10px 30px;
+      max-width: 300px;
+    }
+    .gallery-item img {
+      width: 100%;
+      max-width: 300px;
+      height: 400px;
+      object-fit: cover;
+    }
+    .gallery-item .kit-details {
+      text-align: left;
+      padding: 10px;
+    }
+    .gallery-item .kit-details h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.2em;
+    }
+    .gallery-item .kit-details ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .gallery-item .kit-details ul li {
+      margin-bottom: 5px;
+    }
+    .gallery-item .price {
+      font-weight: bold;
+      color: #000;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <a href="index.html">Back to Home</a>
+    </nav>
+  </div>
+  <div class="hero">
+    <h1>E-BIKE KITS</h1>
+    <p>Explore Our Conversion Kits</p>
+  </div>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="ebike1.png" alt="Performance E-BikeKit Rear Wheel">
+      <div class="kit-details">
+        <h3>PERFORMANCE E-BIKEKIT™ LITHIUM - REAR WHEEL</h3>
+        <ul>
+          <li>Best For Top Speed and Performance</li>
+          <li>26 MPH / 15-30 Mile Range</li>
+          <li>Pedal-Assist Sensor (PAS) and Throttle</li>
+        </ul>
+        <div class="price">$1,380.00</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="ebike2.png" alt="Heavy-Duty E-BikeKit Rear Wheel">
+      <div class="kit-details">
+        <h3>HEAVY-DUTY E-BIKEKIT™ LITHIUM - REAR WHEEL</h3>
+        <ul>
+          <li>Best For Heavy Riders And Cargo</li>
+          <li>20 MPH / 48V / 15-30 Mile Range</li>
+          <li>Pedal-Assist and Throttle-on-Demand</li>
+        </ul>
+        <div class="price">$1,380.00</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="ebike3.png" alt="Performance E-BikeKit Front Wheel">
+      <div class="kit-details">
+        <h3>PERFORMANCE E-BIKEKIT™ LITHIUM - FRONT WHEEL</h3>
+        <ul>
+          <li>Best For Top Speed and Performance</li>
+          <li>26 MPH / 15-30 Mile Range</li>
+          <li>Pedal-Assist and Throttle-on-Demand</li>
+        </ul>
+        <div class="price">$1,362.00</div>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="ebike4.png" alt="Heavy-Duty E-BikeKit Front Wheel">
+      <div class="kit-details">
+        <h3>HEAVY-DUTY E-BIKEKIT LITHIUM - FRONT WHEEL</h3>
+        <ul>
+          <li>Best For Heavy Riders and Cargo</li>
+          <li>20 MPH / 48V / 15-30 Mile Range</li>
+          <li>Pedal-Assist and Throttle-on-Demand</li>
+        </ul>
+        <div class="price">$1,362.00</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
